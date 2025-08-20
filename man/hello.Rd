@@ -17,16 +17,16 @@ filter_sin_sigmoide1(t, coef)
 filter_sin_sigmoide2(t, coef)
 }
 \arguments{
-  \item{x}{Vector with the Julian Day associated to the PP_vec}
-  \item{date}{Numeric Vector for which percentile will be compute}
-  \item{t}{numeric, percentile to be computed}
-  \item{annual_cycle}{integer, window size}
-  \item{coef}{integer, window size}
-  \item{k_sim}{integer, window size}
-  \item{k_sim_sig}{integer, window size}
+  \item{x}{vector numerico}
+  \item{date}{vector de fechas}
+  \item{t}{vector de fechas}
+  \item{annual_cycle}{objeto resultante de get_annual_cycle}
+  \item{coef}{list, lista de coeficientes}
+  \item{k_sim}{integer, cantidad de sinusoidales}
+  \item{k_sim_sig}{integer, cantidad de sinusoidales}
 
 }
 \description{
-asdasd
+empty
 }
 
